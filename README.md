@@ -3,6 +3,8 @@ This is a code test to survey coding preferences, coding proficiency, ability to
 
 Reach out to David Sinclair as needed for any questions—this is certainly not looked down upon. This is a new test and interpreting someone else's code can be difficult.
 
+----
+
 1. Create a new form
 
 The exercise in this part is to give flexibility to the tester to show their preferences and ability to start a project fresh. Using any React starting point (react create app, next js, webpack, or anything else), create a single input form field and a button to submit the form. The details are:
@@ -13,6 +15,8 @@ The exercise in this part is to give flexibility to the tester to show their pre
 - If user tries to submit without any text, show this error somewhere on the page: "This field is required"
 - Add a button with the label "Submit", which will then execute the following: `alert('Submitted');` when submitting without any errors
 - Use any CSS method desired to apply some light styling to the input field and button (no more than 10 minutes of styling in total)
+
+----
 
 2. Modify an existing form
 
