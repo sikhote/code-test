@@ -1,0 +1,9 @@
+# web
+.DS_Store
+node_modules
+yarn-error.log
+.next
+out
+build
+package-lock.json
+public/site-specific

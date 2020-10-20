@@ -1,0 +1,64 @@
+{
+  "name": "code-test",
+  "description": "code-test",
+  "author": "David Sinclair <david@sinclair.tech> (https://sinclair.tech)",
+  "homepage": "https://sinclair.tech",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next"
+  },
+  "xo": {
+    "prettier": true,
+    "extends": "xo-react",
+    "rules": {
+      "complexity": 0,
+      "unicorn/filename-case": 0,
+      "no-console": 2,
+      "no-underscore-dangle": 2,
+      "import/no-unassigned-import": 0,
+      "react/no-danger": 0,
+      "react/state-in-constructor": [
+        1,
+        "always"
+      ],
+      "react/static-property-placement": 0,
+      "promise/no-return-wrap": 0,
+      "unicorn/prevent-abbreviations": 0,
+      "react/boolean-prop-naming": 0,
+      "react/button-has-type": 0,
+      "react/jsx-no-target-blank": 0,
+      "default-case": 0,
+      "import/extensions": 0,
+      "no-alert": 0
+    },
+    "env": [
+      "browser"
+    ],
+    "ignores": [
+      "out/**"
+    ],
+    "space": 2
+  },
+  "dependencies": {
+    "@babel/polyfill": "7.4.4",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.28",
+    "babel-plugin-inline-react-svg": "^1.1.1",
+    "emotion": "^10.0.27",
+    "emotion-server": "^10.0.27",
+    "joi": "^17.1.1",
+    "lodash": "^4.17.15",
+    "next": "^9.5.3",
+    "prop-types": "15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "eslint-config-xo-react": "^0.23.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "xo": "^0.30.0"
+  }
+}
